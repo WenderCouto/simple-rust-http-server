@@ -114,10 +114,10 @@ Vamos começar por clonar este projeto:
 git clone https://github.com/WenderCouto/simple-rust-http-server.git
 ```
 Entre na pasta do projeto:
-`` simple-rust-http-server``
+`` project-rust``
 
 ```sh
-cd simple-rust-http-server/simple-rust-http-server/
+cd project-rust/simple-rust-http-server/
 ```
 Execute o build do projeto com o comando:
 ```

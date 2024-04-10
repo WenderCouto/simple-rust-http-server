@@ -2,7 +2,6 @@ use std::{path::{Path, PathBuf}, string::String, fs::File, io::{Read, Write}, ne
 use crate::model::http_enum::{HttpContentType, HttpMethod, HttpStatusCode};
 use crate::model::http_struct::{HttpContent, HttpRequest, HttpResponse};
 use percent_encoding::percent_decode_str;
-use model::{http_struct, http_enum};
 use walkdir::{DirEntry, WalkDir};
 use serde_json::Value;
 

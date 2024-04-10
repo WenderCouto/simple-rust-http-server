@@ -23,18 +23,18 @@ Caso já tenha tudo configurado, pode seguir para as [Instruções de uso](#Inst
 ### Instalando os Recursos para o Windows:
 Primeiramente você deve ir ao site do [Rust org](https://www.rust-lang.org/tools/install), fazer o download do instalador executavel.
 
-<img src="simple-rust-http-server/src/ilustrative-file-images/rust-lang(.)org-windows.png" width="70%">
+<img src="project-rust/src/ilustrative-file-images/rust-lang(.)org-windows.png" width="70%">
 
 Assim que executar o instalador você vai se deparar com essa tela:
 
-![image-preview](simple-rust-http-server/src/ilustrative-file-images/1-rust-gnu-install-option.png)
+![image-preview](project-rust/src/ilustrative-file-images/1-rust-gnu-install-option.png)
 
 Indica que você precisa do C++ build tools para o Visual Studio.<br>
 E aqui vou demonstrar `duas maneiras de fazer a instalação`.<br>
 Mas você pode consultar a [Documentação](https://forge.rust-lang.org/infra/other-installation-methods.html#other-ways-to-install-rustup) para ver outras formas de instalar.<br>
 Para a `primeira maneira` vamos apenas ignorar e continuar, então só selecionar `y`.
 
-![image-preview](simple-rust-http-server/src/ilustrative-file-images/2-rust-custom-install.png)
+![image-preview](project-rust/src/ilustrative-file-images/2-rust-custom-install.png)
 
 Vamos selecionar a opção que indica customização, e passamos as seguintes opções:
 
@@ -48,32 +48,32 @@ Vamos selecionar a opção que indica customização, e passamos as seguintes op
 Com todas opções selecionadas, o instalador vai baixar o que precisa e realizar as configurações necessárias.<br>
 Por fim você deve ver algo assim ao final da instalação:
 
-![image-preview](simple-rust-http-server/src/ilustrative-file-images/4-sucess-install-rust.png)
+![image-preview](project-rust/src/ilustrative-file-images/4-sucess-install-rust.png)
 
 Para a `segunda maneira` de instalar (e devo dizer que vai precisar de BEM mais espaço em disco), Vamos fazer o mesmo e considerar que estamos [nesta etapa](#imagem1) do instalador.</br>
 Você acaba de selecionar `y`, e agora se depara com a opção padrão.</br>
 
-<img src="simple-rust-http-server/src/ilustrative-file-images/3-rust-default-install.png" width="70%">
+<img src="project-rust/src/ilustrative-file-images/3-rust-default-install.png" width="70%">
 
 E para essa segunda maneira vamos seguir com o proceed, logo após finalizar a instalação vamos tentar fazer o build do projeto direto para ver o erro já esperado.
 
-![image-preview](simple-rust-http-server/src/ilustrative-file-images/5-rust-default-install-msvc-error.png)
+![image-preview](project-rust/src/ilustrative-file-images/5-rust-default-install-msvc-error.png)
 
 Para resolver isso você vai precisar realizar a instalação do [Visual Studio tools](https://visualstudio.microsoft.com/pt-br/thank-you-downloading-visual-studio/)
 
 Se você estiver usando a versão 2019 basta procurar com os olhos essa opção, que provavelmente é a primeira:
 
-<img src="simple-rust-http-server/src/ilustrative-file-images/visualstudio2019-msvc-for-rust.png" width="70%">
+<img src="project-rust/src/ilustrative-file-images/visualstudio2019-msvc-for-rust.png" width="70%">
 
 Para a versão 2022 é a mesma coisa, só que essa opção deve estar localizada um pouco mais em baixo:
 
-<img src="simple-rust-http-server/src/ilustrative-file-images/visualstudio2022-msvc-for-rust.png" width="70%">
+<img src="project-rust/src/ilustrative-file-images/visualstudio2022-msvc-for-rust.png" width="70%">
 
 Se você observar no canto inferior direito destas duas ultimas imagens vai ver que essa maneira de instalação pode levar um bom espaço do seu precioso armazenamento.
 
 Por fim, seguindo nessa segunda maneira, se você tentar executar o `"cargo build"` no diretório do projeto, onde se encontra o arquivo `Cargo.toml` deve compilar sem problemas, Veja as duas tentativas:
 
-<img src="simple-rust-http-server/src/ilustrative-file-images/after-install-msvc-for-rust-from-vs2022.png" width="70%">
+<img src="project-rust/src/ilustrative-file-images/after-install-msvc-for-rust-from-vs2022.png" width="70%">
 
 Executado a primeira vez o comando `"cargo build"` sem ter instalado o [Visual Studio tools](https://visualstudio.microsoft.com/pt-br/thank-you-downloading-visual-studio/), e a Segunda vez com ele já instalado.
 

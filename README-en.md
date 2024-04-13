@@ -145,25 +145,25 @@ Now you are ready to [use](#Use-Instructions).
 With the project already running, follow these steps:
 
 1. Access your localhost and the configured port [http://localhost:8000/](http://localhost:8000/) (default) on your browser or API client.<br>
-   <img src="/Users/Developer/RustroverProjects/project-rust/src/ilustrative-file-image/Rust-http-server-running.png" width="70%"/>
+   <img src="project-rust/src/ilustrative-file-image/Rust-http-server-running.png" width="70%"/>
 
 2. For the function echo, all you need to do is pass your message after the url [http://localhost:8000/echo/](http://localhost:8000/echo/) example below:
-   <img src="/Users/Developer/RustroverProjects/project-rust/src/ilustrative-file-image/rust-echo-function.png" width="70%"/>
+   <img src="project-rust/src/ilustrative-file-image/rust-echo-function.png" width="70%"/>
 
 3. For the image function, all you need to do is pass your image directory with its extension (.jpeg, .jpg, .jpe, .gif, .png, .svg, .webp) in the json requisition body.
    For windows, you need to pass the absolute path with the file name and extension, for linux you can go with absolute path or relative path, but always with the file and extension.
 
 Relative path on macOS:
 
-<img src="/Users/Developer/RustroverProjects/project-rust/src/ilustrative-file-image/macOS-relativepath-unix.png" width="70%"/>
+<img src="project-rust/src/ilustrative-file-image/macOS-relativepath-unix.png" width="70%"/>
 
 Absolute path on macOS:
 
-<img src="/Users/Developer/RustroverProjects/project-rust/src/ilustrative-file-image/macOS-absolutepath-unix.png" width="70%"/>
+<img src="project-rust/src/ilustrative-file-image/macOS-absolutepath-unix.png" width="70%"/>
 
 Absolute path on Windows:
 
-<img src="/Users/Developer/RustroverProjects/project-rust/src/ilustrative-file-image/Windows-absolute-path.jpeg" width="70%"/>
+<img src="project-rust/src/ilustrative-file-image/Windows-absolute-path.jpeg" width="70%"/>
 
 ## Updates
 I probably won't change the images on portuguese.

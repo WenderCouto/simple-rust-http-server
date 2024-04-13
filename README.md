@@ -144,25 +144,25 @@ Com o projeto já rodando, siga estes passos:
 
 1. Acesse o localhost e a porta configurados [http://localhost:8000/](http://localhost:8000/) no seu navegador ou no seu API Client.</br>
    Para este projeto foi usado o [Insomnia](https://insomnia.rest/download).</br>
-   <img src="/Users/Developer/RustroverProjects/project-rust/src/ilustrative-file-image/Rust-http-server-running.png" width="70%"/>
+   <img src="project-rust/src/ilustrative-file-image/Rust-http-server-running.png" width="70%"/>
 
 2. Para função echo, basta passar sua mensagem após a url [http://localhost:8000/echo/](http://localhost:8000/echo/) Segue exemplo abaixo.</br>
-   <img src="/Users/Developer/RustroverProjects/project-rust/src/ilustrative-file-image/rust-echo-function.png" width="70%"/>
+   <img src="project-rust/src/ilustrative-file-image/rust-echo-function.png" width="70%"/>
 
 3. Para função de imagem, basta passar o caminho da imagem com sua extensão (.jpeg, .jpg, .jpe, .gif, .png, .svg, .webp) no corpo da sua solicitação json.
    Para o Windows você deve fornecer o caminho absoluto com o nome do arquivo e extensão, para o linux você pode optar por usar o caminho absoluto ou o caminho relativo, mas sempre com o nome do arquivo e extensão.
 
 Caminho relativo no macOS:
 
-<img src="/Users/Developer/RustroverProjects/project-rust/src/ilustrative-file-image/macOS-relativepath-unix.png" width="70%"/>
+<img src="project-rust/src/ilustrative-file-image/macOS-relativepath-unix.png" width="70%"/>
 
 Caminho absoluto no macOS:
 
-<img src="/Users/Developer/RustroverProjects/project-rust/src/ilustrative-file-image/macOS-absolutepath-unix.png" width="70%"/>
+<img src="project-rust/src/ilustrative-file-image/macOS-absolutepath-unix.png" width="70%"/>
 
 Caminho absoluto no Windows:
 
-<img src="/Users/Developer/RustroverProjects/project-rust/src/ilustrative-file-image/Windows-absolute-path.jpeg" width="70%"/>
+<img src="project-rust/src/ilustrative-file-image/Windows-absolute-path.jpeg" width="70%"/>
 
 ## Atualizações
 Nada ainda.
